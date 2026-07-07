@@ -1,0 +1,54 @@
+<div class="product-detail-section">
+  <div class="product-detail-wrapper">
+    <!-- Product Image and Carousel -->
+    <div class="product-image-container">
+      <img
+        [src]="productImages[selectedImageIndex]?.imgUrl"
+        [alt]="productImages[selectedImageIndex]?.altText"
+        class="product-image main-product-image"
+      />
+
+      <div class="carousel-container">
+        <div class="carousel-wrapper">
+          @for (image of productImages; track image.imgUrl; let i = $index) {
+            @if (!(image.imgUrl.includes('null'))) {
+              <div
+                class="carousel-slide"
+                [class.active]="i === selectedImageIndex"
+                (click)="selectImage(i)"
+              >
+                <img [src]="image.imgUrl" [alt]="image.altText" />
+              </div>
+            }
+          }
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Details -->
+    <div class="product-info">
+      <h2>{{ product?.productName }}</h2>
+      <p class="price">Kshs.{{ product?.price }}</p>
+      <div class="quantity-selector">
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1"  [(ngModel)]="quantity" />
+      </div>
+      <p class="description">{{ product?.description }}</p>
+      <div class="product-actions">
+        <button routerLink="/cart" class="buy-now" (click)="buyNow(product?.productId!, product?.productName ?? '', product?.price ?? 0, quantity)"
+       >Buy Now</button>
+        <button routerLink="/cart" class="add-to-cart" (click)="addToCart(product?.productId!, product?.productName ?? '', product?.price ?? 0, quantity, product?.imagePath)">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="product-tabs">
+    <ul class="tab-list">
+      <li class="tab active" data-tab="description">Description</li>
+    </ul>
+    <div class="tab-content active" id="description">
+      <p>{{ product?.description }}</p>
+    </div>
+  </div>
+</div>

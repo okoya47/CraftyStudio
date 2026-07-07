@@ -1,0 +1,308 @@
+/* Products Section Styles */
+.products-section {
+  padding: 48px 40px 48px 40px;
+  background-color: moccasin;
+}
+
+.products-section h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 38px;
+}
+
+.products-section p {
+  text-align: center;
+  margin-bottom: 32px;
+  font-size: 16px;
+  color: rgba(33, 37, 41, 0.75);
+}
+
+.filter-options {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.filter-options select {
+
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+/* Grid Wrapper for Product Cards */
+.scroll-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Flexible grid layout */
+  gap: 16px;
+  justify-items: center; /* Centers the cards horizontally */
+}
+
+/* Product Card Styles */
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px; /* Set a common max-width for cards */
+  overflow: hidden;
+  margin-top: 24px;
+  transition: transform 0.6s, opacity 0.6s;
+  animation: zoomIn 1s forwards;
+}
+
+/* Image Container Styles */
+.image-container {
+  position: relative;
+  width: 300px;
+  height: 250px; /* Set a fixed height for images */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container while maintaining aspect ratio */
+  display: block;
+}
+
+/* Overlay for Image Hover Effect */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+/* Read More Button Styling */
+.read-more {
+  background: transparent;
+  border: 2px solid #ff5722;
+  color: #ff5722;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.read-more:hover {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+/* Discount Label for Cards */
+.discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #ff5722;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Card Content */
+.card-content {
+  padding: 15px;
+}
+
+.card-content h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card-content .price {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Zoom In Animation */
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.pagination-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.page-link {
+  padding: 4px 6px;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+  text-decoration: none;
+  color: #333;
+  border-radius: 8px;
+}
+
+.page-link:hover {
+  background-color: #e9ecef;
+}
+
+.pagination-controls button:hover,
+.page-link:hover {
+  background-color: #ff5722;
+  color: #fff;
+}
+#del, #edit, #addCart{
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  color: #333;
+}
+#del:hover{
+  background-color: #f32b2b;
+  color: #FFFFFF;
+  border-color: #c90000;
+}
+
+#del:hover{
+  background-color: #f32b2b;
+  color: #FFFFFF;
+  border-color: #c90000;
+}
+#addCart:hover{
+  background-color: #ff5722;
+  color: #FFFFFF;
+  border-color: #ff5722;
+}
+
+#edit:hover{
+  background-color: orange;
+  color: #FFFFFF;
+  border-color: orange;
+}
+/* Responsive Design */
+/* Mobile Devices: 1 card per row */
+@media (max-width: 768px) {
+  .scroll-wrapper {
+    grid-template-columns: 1fr; /* 1 card on mobile */
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Tablets: 2 cards per row */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .scroll-wrapper {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards on tablets */
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+/* Desktop: 3 cards per row */
+@media (min-width: 1025px) {
+  .scroll-wrapper {
+    grid-template-columns: repeat(3, 1fr); /* 3 cards on desktop */
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+/* CSS Styling for Pagination */
+pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-link {
+  margin: 0 5px;
+  padding: 0px 8px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ff5722;
+}
+
+.page-link.active {
+  font-weight: bold;
+  background-color: #ff5722;
+  color: white;
+}
+
+.page-link.disabled {
+  cursor: not-allowed;
+  color: #ccc;
+}
+
+.page-link:hover:not(.disabled) {
+  background-color: #ff5722;
+}
+
+@media (max-width: 768px) {
+  .pagination {
+    display: ruby !important; 
+  }
+  .pagination-controls {
+    display: ruby !important;
+  }
+
+  .products-section h2{
+    font-size: 35px !important;
+  }
+  .products-section
+ {
+    padding: 68px 40px 48px 40px;
+}
+}
+.modal{
+  top: 30% !important;
+}
+
+.modal-header .btn-close {
+  position: relative;
+  top: -30px;
+ }
+ .modal-content{
+  background-color: #333333bf;
+ }
+.modal-title span{
+  font-size: 18px !important;
+    font-weight: 500 !important;
+    color: #FFFFFF;
+ }
+ .modal-footer{
+  justify-content: space-between;
+ }
+
+ .optionBtn{
+  display: flex;
+  justify-content: space-around;
+ }

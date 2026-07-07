@@ -1,0 +1,20 @@
+<app-loader [isLoading]="loading"></app-loader>
+<div class="action-buttons">
+  <button routerLink="/dashboard">Dashboard</button>
+</div>
+<form class="category-form" (ngSubmit)="saveCategory()">
+  <h5>{{categoryTitle}}</h5>
+  <label class="form-group">
+    Name:
+    <input [(ngModel)]="category.name" name="CategoryName" required />
+  </label>
+
+
+  <label class="form-group">
+    Image:
+    <input type="file" (change)="onFileChange($event)" />
+  </label>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+

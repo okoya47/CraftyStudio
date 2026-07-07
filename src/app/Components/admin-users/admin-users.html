@@ -1,0 +1,76 @@
+<div class="admin-user-page">
+  <div class="action-buttons">
+    <button routerLink="/dashboard">Dashboard</button>
+  </div>
+  <h1>User Management</h1>
+
+  <table class="user-table" *ngIf="visibleUsers().length > 0">
+    <thead>
+      <tr>
+        <th>User ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Role</th>
+        <th>Pending Orders</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (user of visibleUsers(); track user.id) {
+      <tr>
+        <td>{{ user.id }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.role }}</td>
+        <td>{{ user.pendingOrders }}</td>
+        <td>
+          <button (click)="openRoleModal(user)">Change Role</button>
+          <button class="danger" (click)="openDeleteModal(user)">Delete</button>
+        </td>
+      </tr>
+      }
+    </tbody>
+  </table>
+
+  <!-- Pagination -->
+  <div class="pagination">
+    <button (click)="prevPage()" [disabled]="currentPage() === 1">Previous</button>
+    <span>Page {{ currentPage() }} of {{ totalPages() }}</span>
+    <button (click)="nextPage()" [disabled]="currentPage() === totalPages()">Next</button>
+  </div>
+</div>
+
+<!-- ✅ Role Change Modal -->
+@if (showRoleModal()) {
+<div class="modal-backdrop">
+  <div class="user-modal">
+    <h2>Change Role</h2>
+    <p>Change role for {{ selectedUser()?.name }}</p>
+
+    <select [ngModel]="newRole()" (ngModelChange)="newRole.set($event)">
+      <option value="User">User</option>
+      <option value="Admin">Admin</option>
+    </select>
+
+    <div class="modal-actions">
+      <button class="cancel" (click)="closeRoleModal()">Cancel</button>
+      <button class="confirm" (click)="confirmRoleChange()">Confirm</button>
+    </div>
+  </div>
+</div>
+}
+
+<!-- ✅ Delete Modal -->
+@if (showDeleteModal()) {
+<div class="modal-backdrop">
+  <div class="user-modal">
+    <h2>Delete User</h2>
+    <p>Are you sure you want to delete {{ selectedUser()?.name }}?</p>
+
+    <div class="modal-actions">
+      <button class="cancel" (click)="closeDeleteModal()">Cancel</button>
+      <button class="danger" (click)="confirmDelete()">Delete</button>
+    </div>
+  </div>
+</div>
+}

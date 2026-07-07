@@ -1,0 +1,100 @@
+/* Contact Us Section Styles */
+.contact-us-section {
+    padding: 48px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .contact-us-section h2 {
+    font-size: 38px;
+    margin-bottom: 32px;
+  }
+  
+  .contact-us-section p {
+    font-size: 16px;
+    margin-bottom: 48px;
+    color: rgba(33, 37, 41, 0.75);
+  }
+  
+  .contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+  }
+  
+  .contact-form,
+  .contact-info {
+    flex: 1 1 45%;
+    max-width: 500px;
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .contact-form label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .contact-form button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    background-color: #ff5722;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #e64a19;
+  }
+  
+  .contact-info {
+    text-align: left;
+  }
+  
+  .contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-wrapper {
+      flex-direction: column;
+    }
+
+  .contact-us-section h2 {
+    font-size: 35px !important;
+
+    }
+  }
+  

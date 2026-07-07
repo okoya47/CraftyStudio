@@ -1,0 +1,171 @@
+/* Action Buttons Section */
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+.action-buttons button {
+  padding: 12px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.action-buttons button:hover {
+  background-color: #555;
+}
+.admin-dashboard {
+  padding: 40px 20px;
+  background-color: var(--color-bg-light);
+  max-width: 1200px;
+  margin: auto;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.dashboard-header h1 {
+  font-size: 36px;
+}
+
+.dashboard-header p {
+  font-size: 16px;
+  color: var(--color-muted);
+}
+
+.admin-section {
+  margin-bottom: 48px;
+}
+
+.admin-section h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: var(--color-primary);
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+  .admin-table th,
+  .admin-table td {
+    padding: 12px 16px;
+    border: 1px solid #d1cdcd;
+    text-align: left;
+  }
+
+.admin-table th {
+  background-color: var(--color-bg-accent);
+  color: var(--color-text);
+}
+
+.admin-table td button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* background-color: var(--color-primary); */
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.admin-table td button:hover {
+  background-color: darkorange;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  gap: 12px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  background-color: rgb(219, 123, 32);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: darkorange;
+}
+
+.pagination span {
+  font-weight: bold;
+  color: var(--color-text);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .admin-table th,
+  .admin-table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .admin-table td button {
+    margin-bottom: 4px;
+    display: block;
+    width: 100%;
+  }
+
+  .pagination {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+.action-button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 6px;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+button.action-button.edit {
+  background-color: #3498db  !important;
+}
+
+button.action-button.edit:hover {
+  background-color: #2980b9 !important;
+}
+
+button.action-button.delete {
+  background-color: #e74c3c  !important;
+}
+
+button.action-button.delete:hover {
+  background-color: #c0392b !important;
+}
+
+#action-btn button.action-button.update{
+  background-color: #27ae60  !important;
+}
+
+#action-btn button.action-button.update:hover {
+  background-color: #1e8449 !important;
+}
+#categories-body img{
+  width: 60px;
+}

@@ -1,0 +1,28 @@
+.dots-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.dots-loader span {
+  width: 12px;
+  height: 12px;
+  background: #3498db;
+  border-radius: 50%;
+  animation: bounce 0.6s infinite alternate;
+}
+
+.dots-loader span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.dots-loader span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes bounce {
+  from { transform: translateY(0); }
+  to   { transform: translateY(-10px); }
+}
+
+/* Fullscreen overlay */ .overlay { position: fixed; /* stays in place */ top: 0; left: 0; width: 100vw; /* full width */ height: 100vh; /* full height */ background: rgba(0, 0, 0, 0.4); /* transparent dark background */ display: flex; justify-content: center; /* center horizontally */ align-items: center; /* center vertically */ z-index: 9999; /* on top of everything */ }

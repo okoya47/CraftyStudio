@@ -1,0 +1,243 @@
+/* ✅ Page container */
+.admin-user-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* ✅ Table styling */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+  .user-table th,
+  .user-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+
+  .user-table th {
+    background-color: #1976d2;
+    color: white;
+    font-weight: bold;
+  }
+
+  .user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .user-table tr:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* ✅ Action buttons inside table */
+  .user-table button {
+    padding: 6px 12px;
+    margin-right: 6px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1976d2;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+
+    .user-table button:hover {
+      background-color: #1565c0;
+      transform: scale(1.05);
+    }
+
+    .user-table button.danger {
+      background-color: #c62828;
+    }
+
+      .user-table button.danger:hover {
+        background-color: #b71c1c;
+      }
+
+/* ✅ Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+  .pagination button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1976d2;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+    .pagination button:hover {
+      background-color: #1565c0;
+    }
+
+    .pagination button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+
+/* ✅ Modal backdrop */
+.modal-backdrop {
+  position: fixed;
+  inset: 0; /* shorthand for top/right/bottom/left:0 */
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+/* ✅ Modal box */
+.user-modal {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 360px;
+  max-width: 90vw;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  text-align: center;
+  animation: fadeIn 0.3s ease-out;
+}
+
+  .modal h2 {
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: #333;
+  }
+
+  .modal p {
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #555;
+  }
+
+  /* ✅ Select dropdown inside modal */
+  .modal select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+
+/* ✅ Modal actions */
+.modal-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+  .modal-actions button {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Confirm button */
+  .modal-actions .confirm {
+    background-color: #1976d2;
+    color: white;
+  }
+
+    .modal-actions .confirm:hover {
+      background-color: #1565c0;
+    }
+
+  /* Cancel button */
+  .modal-actions .cancel {
+    background-color: #ddd;
+    color: #333;
+  }
+
+    .modal-actions .cancel:hover {
+      background-color: #bbb;
+    }
+
+  /* Danger button */
+  .modal-actions .danger {
+    background-color: #c62828;
+    color: white;
+  }
+
+    .modal-actions .danger:hover {
+      background-color: #b71c1c;
+    }
+
+/* ✅ Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ✅ Error message styling */
+.error-msg {
+  color: #c62828;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+/* ✅ Responsive tweaks */
+@media (max-width: 768px) {
+  .user-table th, .user-table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .modal {
+    width: 90%;
+    padding: 1.5rem;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+    .modal-actions button {
+      width: 100%;
+    }
+}
+
+/* Action Buttons Section */
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+  .action-buttons button {
+    padding: 12px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+    .action-buttons button:hover {
+      background-color: #555;
+    }

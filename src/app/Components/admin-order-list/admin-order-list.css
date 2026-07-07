@@ -1,0 +1,152 @@
+.admin-order-page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+  .order-table th, .order-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+
+  .order-table th {
+    background-color: #1976d2;
+    color: white;
+  }
+
+  .order-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  .order-table button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+  }
+
+    .order-table button:hover {
+      background-color: #e64a19;
+    }
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+  .pagination button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1976d2;
+    color: white;
+    cursor: pointer;
+  }
+
+    .pagination button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+
+/* ✅ Update Modal */
+.update-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+.update-modal {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 360px;
+  max-width: 90vw;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  text-align: center;
+  animation: fadeIn 0.3s ease-out;
+}
+
+  .update-modal select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+
+.update-modal-actions {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+  .update-modal-actions .confirm {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+  }
+
+  .update-modal-actions .cancel {
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    border: 1px solid red;
+    color: red;
+  }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Action Buttons Section */
+.action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+  .action-buttons button {
+    padding: 12px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  .action-buttons button:hover {
+    background-color: #555;
+  }

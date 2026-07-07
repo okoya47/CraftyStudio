@@ -1,0 +1,70 @@
+<div class="admin-order-page">
+  <div class="action-buttons">
+    <button routerLink="/dashboard">Dashboard</button>
+  </div>
+  <h1>Client Orders</h1>
+
+  @if (isLoading()) {
+  <div>Loading orders...</div>
+  }
+
+  @if (error()) {
+  <div class="error-msg">{{ error() }}</div>
+  }
+
+  <table class="order-table" *ngIf="visibleOrders().length > 0">
+    <thead>
+      <tr>
+        <th>Order No</th>
+        <th>Client Name</th>
+        <th>Date</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (order of visibleOrders(); track order.id) {
+      <tr>
+        <td>{{ order.id }}</td>
+        <td>{{ order.clientName }}</td>
+        <td>{{ order.orderedAt | date:'short' }}</td>
+        <td>{{ order.status }}</td>
+        <td>
+          <button (click)="openUpdateModal(order)">Status</button>
+        </td>
+      </tr>
+      }
+    </tbody>
+  </table>
+
+  <!-- Pagination -->
+  <div class="pagination">
+    <button (click)="prevPage()" [disabled]="currentPage() === 1">Prev</button>
+    <span>Page {{ currentPage() }} of {{ totalPages() }}</span>
+    <button (click)="nextPage()" [disabled]="currentPage() === totalPages()">Next</button>
+  </div>
+</div>
+
+<!-- ✅ Update Modal -->
+@if (showModalFlag()) {
+<div id="update-modal-backdrop" class="update-modal-backdrop">
+  <div id="update-modal" class="update-modal">
+    <h2>Update Order Status</h2>
+    <p>Change status for Order #{{ selectedOrder()?.id }} ({{ selectedOrder()?.clientName }})</p>
+
+    <!-- ✅ Fixed binding for signals -->
+    <select [ngModel]="newStatus()" (ngModelChange)="newStatus.set($event)">
+      <option value="Pending">Pending</option>
+      <option value="Processing">Processing</option>
+      <option value="Shipped">Shipped</option>
+      <option value="Completed">Completed</option>
+      <option value="Cancelled">Cancelled</option>
+    </select>
+
+    <div class="update-modal-actions">
+      <button class="cancel" (click)="closeUpdateModal()">Cancel</button>
+      <button class="confirm" (click)="confirmUpdate()">Confirm</button>
+    </div>
+  </div>
+</div>
+}

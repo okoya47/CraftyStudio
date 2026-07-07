@@ -1,0 +1,224 @@
+/* Navbar Base */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #f7ecd6;
+    color: #362214;
+    position: relative;
+    border-bottom: 1px solid;
+  }
+  
+  .navbar-logo img {
+    height: 96px;
+  }
+  
+  /* Desktop View */
+  .desktop-navbar-links, .desktop-navbar-icons, .desktop-navbar-auth {
+    display: flex;
+    align-items: center;
+  }
+  
+  .desktop-navbar-links a, .desktop-navbar-icons a {
+    margin: 0 0.5rem;
+    color: #362214;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+  
+  .desktop-navbar-links a:hover, .desktop-navbar-icons a:hover{
+    color: #a3683f;
+    text-decoration: underline;
+  }
+
+  .desktop-navbar-icons a {
+    font-size: 24px;
+  }
+  .desktop-navbar-icons{
+    display: block;
+  }
+  @media (max-width: 1024px){
+    /* .desktop-navbar-icons{
+      display: none;
+    } */
+    .navbar-logo img{
+      height: 80px;
+    }
+  }
+  
+  .desktop-navbar-auth button {
+    margin-left: 0.5rem;
+    color: #362214;
+    background-color: transparent;
+    border: 1px solid #362214;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 10px;
+  }
+  .mobile-navbar-auth button{
+    display: block;
+    width: 100%;
+    /* max-width: 300px; */
+    margin: 0.5em auto;
+    padding: 8px;
+    font-size: 14px;
+  
+    /* font-weight: 600; */
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  .mobile-navbar-auth button.signup {
+    background-color: #007bff !important;
+  }
+
+  .mobile-navbar-auth button.login {
+    border: 1px solid #362214;
+  }
+
+    .mobile-navbar-auth button.signout {
+       border: 1px solid #362214;
+    }
+/* Responsive Menu Toggle */
+.navbar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #362214;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+  
+  /* Collapse Menu (Mobile View) */
+  .mobile-navbar-collapse {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #f7ecd6;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .mobile-navbar-collapse.open {
+    display: flex;
+  }
+  
+  .mobile-navbar-collapse a, .mobile-navbar-collapse button {
+    width: 100%;
+    text-align: center;
+    color: #362214;
+  }
+
+  .mobile-navbar-links a{
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    border-bottom: 1px solid #444;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+   .mobile-navbar-links a:hover{
+    color: #a3683f;
+   }
+  
+  .mobile-navbar-collapse .mobile-navbar-icons a {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  .mobile-navbar-auth{
+    padding-bottom: 24px;
+  }
+  .navbar-logo-mobi, .mobi-cart{
+    display: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-logo-mobi  h2 {
+    font-size: 14px;
+    font-family: serif;
+  }
+  .navbar-logo-mobi {
+      display: flex !important;
+      flex-direction: column;
+      align-items: center;
+  }
+    .desktop-navbar-links, .desktop-navbar-icons, .desktop-navbar-auth {
+      display: none;
+    }
+    .navbar-logo-mobi img{
+      height: 60px;
+  }
+  .mobi-cart{
+    display: block;
+  }
+  .navbar-logo{
+    display: none;
+  }
+  .mobile-navbar-icons{
+    display: flex;
+    width: 50%;
+  }
+  .mobile-navbar-collapse {
+    top: 105px;
+  }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  
+    .mobile-navbar-collapse.open {
+      display: flex;
+    }
+
+    .mobile-navbar-auth {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+
+  .cart-icon {
+  position: relative;
+  display: inline-block;
+}
+a.cart-icon{
+  color:#362214;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color: #ff5722;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 50%;
+  line-height: 1;
+  min-width: 20px;
+  text-align: center;
+}
+
+.desktop-navbar-links {
+    flex-direction: column;
+}
+
+.navbar-logo {
+    display: contents;
+}
+
+.navbar-logo h2{
+    font-size: 24px;
+    font-family: serif;
+    padding-bottom: 32px;
+}

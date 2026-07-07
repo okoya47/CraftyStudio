@@ -1,0 +1,75 @@
+<div class="cart-section">
+  <h2>Shopping Cart</h2>
+
+  @if (isLoading()) {
+    <div>
+      <p>Loading cart...</p>
+    </div>
+  }
+
+  @if (error()) {
+    <div>
+      <p class="error">{{ error() }}</p>
+    </div>
+  }
+
+  @if (!isLoading() && !error()) {
+    <div class="cart-wrapper">
+      <!-- Cart Items -->
+      <div class="cart-items">
+        @if (cartItems().length === 0) {
+          <div>No items added in the cart.</div>
+        }
+
+        @if (cartItems().length > 0) {
+          @for (item of cartItems(); track item.id) {
+            <div class="cart-item">
+               <img [src]="item.imageUrl" alt="Product Image" /> 
+              <div class="item-details">
+                <h3>{{ item.productName }}</h3>
+                <p>Item ID: {{ item.id }}</p>
+                <p class="price">Kshs.{{ item.price * item.quantity }}</p>
+                <div class="quantity-selector">
+                  <label for="quantity">Quantity:</label>
+                  <input
+                    type="number"
+                    id="quantity-{{ item.id }}"
+                    name="quantity"
+                    min="1"
+                    [value]="item.quantity"
+                    (change)="updateCount(item.id, +$event.target.value)"
+                  />
+                </div>
+              </div>
+              <div class="item-actions">
+                <button (click)="removeItem(item.id)" class="remove-item">Remove</button>
+              </div>
+            </div>
+          }
+        }
+      </div>
+
+      <!-- Cart Summary -->
+      <div class="cart-summary">
+        <h3>Order Summary</h3>
+        <p>Subtotal: Kshs.{{ totalAmount() }}</p>
+        <p>Shipping: Kshs.20.00</p>
+        <p><strong>Total: Kshs.{{ totalAmount() + 20 }}</strong></p>
+        <button
+          class="clearCart-btn"
+          (click)="clearCart()"
+          [disabled]="cartItems().length === 0"
+        >
+          Clear Cart
+        </button>
+        <button
+          routerLink="/CheckOut"
+          class="checkout-btn"
+          [disabled]="cartItems().length === 0"
+        >
+          Proceed to Checkout
+        </button>
+      </div>
+    </div>
+  }
+</div>

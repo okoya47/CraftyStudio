@@ -1,0 +1,1096 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CraftyStudio\\craftyStudio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\order-confirmation\\order-confirmation.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\order-confirmation\\order-confirmation.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\order-confirmation\\order-confirmation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\order-confirmation\\order-confirmation.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\order-confirmation\\order-confirmation.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\order-confirmation\\order-confirmation.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\orders\\orders.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\orders\\orders.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\cart\\cart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\cart\\cart.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\orders\\orders.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\orders\\orders.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\orders\\orders.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\orders\\orders.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Header\\header\\header.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Header\\header\\header.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Header\\header\\header.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Header\\header\\header.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\cart\\cart.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\cart\\cart.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\cart\\cart.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\cart\\cart.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Services\\cart-service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Services\\cart-service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-users\\admin-users.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\admin-users\\admin-users.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-users\\admin-users.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\admin-users\\admin-users.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-order-list\\admin-order-list.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\admin-order-list\\admin-order-list.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Header\\header\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Header\\header\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\user-badge\\user-badge.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\user-badge\\user-badge.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\user-badge\\user-badge.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\user-badge\\user-badge.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\cart\\cart.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\cart\\cart.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Services\\user-service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Services\\user-service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\contact-us\\contact-us.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\contact-us\\contact-us.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\contact-us\\contact-us.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\contact-us\\contact-us.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Models\\user.Model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Models\\user.Model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Guard\\admin-check-guard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Guard\\admin-check-guard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Products\\products\\products.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Products\\products\\products.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\otp-verification-modal\\otp-verification-modal.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\otp-verification-modal\\otp-verification-modal.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Dashboard\\dashboard\\dashboard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Dashboard\\dashboard\\dashboard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\check-out\\check-out.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\check-out\\check-out.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddCategory\\add-category\\add-category.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\AddCategory\\add-category\\add-category.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Auth\\auth.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Auth\\auth.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Services\\reset-service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Services\\reset-service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Sign_In\\sign-in\\sign-in.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Sign_In\\sign-in\\sign-in.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\orders\\orders.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\orders\\orders.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Interceptors\\token-interceptors-interceptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Interceptors\\token-interceptors-interceptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Services\\product-service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Services\\product-service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Interceptors\\token-interceptors-interceptor.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Interceptors\\token-interceptors-interceptor.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\dist\\craftyStudio\\browser\\chunk-E2NZCY2V.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dist\\craftyStudio\\browser\\chunk-E2NZCY2V.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Dashboard\\dashboard\\dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Dashboard\\dashboard\\dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Dashboard\\dashboard\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Dashboard\\dashboard\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddProduct\\add-product\\add-product.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\AddProduct\\add-product\\add-product.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddProduct\\add-product\\add-product.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\AddProduct\\add-product\\add-product.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddProduct\\add-product\\add-product.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\AddProduct\\add-product\\add-product.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddCategory\\add-category\\add-category.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\AddCategory\\add-category\\add-category.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-order-list\\admin-order-list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\admin-order-list\\admin-order-list.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-users\\admin-users.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\admin-users\\admin-users.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddCategory\\add-category\\add-category.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\AddCategory\\add-category\\add-category.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-order-list\\admin-order-list.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\admin-order-list\\admin-order-list.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Footer\\footer\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Footer\\footer\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Footer\\footer\\footer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Footer\\footer\\footer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Footer\\footer\\footer.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Footer\\footer\\footer.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Environment\\environment.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Environment\\environment.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Models\\Cart.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Models\\Cart.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-users\\admin-users.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\admin-users\\admin-users.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\app.routes.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Home\\home\\home.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Home\\home\\home.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Home\\home\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Home\\home\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Home\\home\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Home\\home\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-order-list\\admin-order-list.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\admin-order-list\\admin-order-list.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Products\\products\\products.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Products\\products\\products.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Sign_Up\\sign-up\\sign-up.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\Sign_Up\\sign-up\\sign-up.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\check-out\\check-out.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\check-out\\check-out.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\loader\\loader.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\app\\Components\\loader\\loader.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "order-confirmation.css",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\order-confirmation\\order-confirmation.css",
+              "RelativeDocumentMoniker": "src\\app\\Components\\order-confirmation\\order-confirmation.css",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\order-confirmation\\order-confirmation.css",
+              "RelativeToolTip": "src\\app\\Components\\order-confirmation\\order-confirmation.css",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-26T18:11:37.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "cart.css",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\cart\\cart.css",
+              "RelativeDocumentMoniker": "src\\app\\Components\\cart\\cart.css",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\cart\\cart.css",
+              "RelativeToolTip": "src\\app\\Components\\cart\\cart.css",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAKAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-26T17:41:46.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "orders.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\orders\\orders.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\orders\\orders.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\orders\\orders.ts",
+              "RelativeToolTip": "src\\app\\Components\\orders\\orders.ts",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAuwJYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T20:02:54.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "orders.css",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\orders\\orders.css",
+              "RelativeDocumentMoniker": "src\\app\\Components\\orders\\orders.css",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\orders\\orders.css",
+              "RelativeToolTip": "src\\app\\Components\\orders\\orders.css",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAALgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-20T20:03:51.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "order-confirmation.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\order-confirmation\\order-confirmation.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\order-confirmation\\order-confirmation.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\order-confirmation\\order-confirmation.ts",
+              "RelativeToolTip": "src\\app\\Components\\order-confirmation\\order-confirmation.ts",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T19:31:30.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "order-confirmation.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\order-confirmation\\order-confirmation.html",
+              "RelativeDocumentMoniker": "src\\app\\Components\\order-confirmation\\order-confirmation.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\order-confirmation\\order-confirmation.html",
+              "RelativeToolTip": "src\\app\\Components\\order-confirmation\\order-confirmation.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-20T19:31:32.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "orders.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\orders\\orders.html",
+              "RelativeDocumentMoniker": "src\\app\\Components\\orders\\orders.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\orders\\orders.html",
+              "RelativeToolTip": "src\\app\\Components\\orders\\orders.html",
+              "ViewState": "AgIAACMAAAAAAAAAAADwvxoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-20T20:02:58.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "header.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Header\\header\\header.html",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Header\\header\\header.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Header\\header\\header.html",
+              "RelativeToolTip": "src\\app\\Components\\Header\\header\\header.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-25T11:06:57.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "header.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Header\\header\\header.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Header\\header\\header.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Header\\header\\header.ts",
+              "RelativeToolTip": "src\\app\\Components\\Header\\header\\header.ts",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-25T15:03:46.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "cart.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\cart\\cart.html",
+              "RelativeDocumentMoniker": "src\\app\\Components\\cart\\cart.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\cart\\cart.html",
+              "RelativeToolTip": "src\\app\\Components\\cart\\cart.html",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-26T17:41:33.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "cart-service.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Services\\cart-service.ts",
+              "RelativeDocumentMoniker": "src\\app\\Services\\cart-service.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Services\\cart-service.ts",
+              "RelativeToolTip": "src\\app\\Services\\cart-service.ts",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAuwIgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-11T15:48:46.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "admin-users.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-users\\admin-users.html",
+              "RelativeDocumentMoniker": "src\\app\\Components\\admin-users\\admin-users.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-users\\admin-users.html",
+              "RelativeToolTip": "src\\app\\Components\\admin-users\\admin-users.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-20T21:06:34.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "admin-users.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-users\\admin-users.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\admin-users\\admin-users.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-users\\admin-users.ts",
+              "RelativeToolTip": "src\\app\\Components\\admin-users\\admin-users.ts",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwFgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T21:02:56.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "admin-order-list.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-order-list\\admin-order-list.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\admin-order-list\\admin-order-list.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-order-list\\admin-order-list.ts",
+              "RelativeToolTip": "src\\app\\Components\\admin-order-list\\admin-order-list.ts",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwEsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T19:54:10.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "cart.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\cart\\cart.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\cart\\cart.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\cart\\cart.ts",
+              "RelativeToolTip": "src\\app\\Components\\cart\\cart.ts",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAgwAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-25T10:45:06.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "header.css",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Header\\header\\header.css",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Header\\header\\header.css",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Header\\header\\header.css",
+              "RelativeToolTip": "src\\app\\Components\\Header\\header\\header.css",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-25T15:18:28.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "user-badge.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\user-badge\\user-badge.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\user-badge\\user-badge.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\user-badge\\user-badge.ts",
+              "RelativeToolTip": "src\\app\\Components\\user-badge\\user-badge.ts",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-25T15:07:00.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "user-badge.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\user-badge\\user-badge.html",
+              "RelativeDocumentMoniker": "src\\app\\Components\\user-badge\\user-badge.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\user-badge\\user-badge.html",
+              "RelativeToolTip": "src\\app\\Components\\user-badge\\user-badge.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-11T13:58:47.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "cart.spec.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\cart\\cart.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\cart\\cart.spec.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\cart\\cart.spec.ts",
+              "RelativeToolTip": "src\\app\\Components\\cart\\cart.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-25T13:01:11.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "user-service.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Services\\user-service.ts",
+              "RelativeDocumentMoniker": "src\\app\\Services\\user-service.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Services\\user-service.ts",
+              "RelativeToolTip": "src\\app\\Services\\user-service.ts",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-21T18:10:41.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "user.Model.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Models\\user.Model.ts",
+              "RelativeDocumentMoniker": "src\\app\\Models\\user.Model.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Models\\user.Model.ts",
+              "RelativeToolTip": "src\\app\\Models\\user.Model.ts",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-21T18:17:22.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "contact-us.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\contact-us\\contact-us.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\contact-us\\contact-us.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\contact-us\\contact-us.ts",
+              "RelativeToolTip": "src\\app\\Components\\contact-us\\contact-us.ts",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-25T11:25:44.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "contact-us.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\contact-us\\contact-us.html",
+              "RelativeDocumentMoniker": "src\\app\\Components\\contact-us\\contact-us.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\contact-us\\contact-us.html",
+              "RelativeToolTip": "src\\app\\Components\\contact-us\\contact-us.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-25T11:25:46.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "admin-check-guard.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Guard\\admin-check-guard.ts",
+              "RelativeDocumentMoniker": "src\\app\\Guard\\admin-check-guard.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Guard\\admin-check-guard.ts",
+              "RelativeToolTip": "src\\app\\Guard\\admin-check-guard.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-25T11:20:46.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "products.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Products\\products\\products.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Products\\products\\products.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Products\\products\\products.ts",
+              "RelativeToolTip": "src\\app\\Components\\Products\\products\\products.ts",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-25T11:20:42.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "otp-verification-modal.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\otp-verification-modal\\otp-verification-modal.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\otp-verification-modal\\otp-verification-modal.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\otp-verification-modal\\otp-verification-modal.ts",
+              "RelativeToolTip": "src\\app\\Components\\otp-verification-modal\\otp-verification-modal.ts",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwFMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-25T11:20:37.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "add-category.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddCategory\\add-category\\add-category.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\AddCategory\\add-category\\add-category.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddCategory\\add-category\\add-category.ts",
+              "RelativeToolTip": "src\\app\\Components\\AddCategory\\add-category\\add-category.ts",
+              "ViewState": "AgIAACkAAAAAAAAAAIAwwDkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T19:36:48.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "auth.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Auth\\auth.ts",
+              "RelativeDocumentMoniker": "src\\app\\Auth\\auth.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Auth\\auth.ts",
+              "RelativeToolTip": "src\\app\\Auth\\auth.ts",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAMwG0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-11T14:01:25.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "check-out.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\check-out\\check-out.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\check-out\\check-out.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\check-out\\check-out.ts",
+              "RelativeToolTip": "src\\app\\Components\\check-out\\check-out.ts",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAMwHQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-25T10:48:38.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "dashboard.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Dashboard\\dashboard\\dashboard.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Dashboard\\dashboard\\dashboard.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Dashboard\\dashboard\\dashboard.ts",
+              "RelativeToolTip": "src\\app\\Components\\Dashboard\\dashboard\\dashboard.ts",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAMwHQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T19:56:32.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "reset-service.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Services\\reset-service.ts",
+              "RelativeDocumentMoniker": "src\\app\\Services\\reset-service.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Services\\reset-service.ts",
+              "RelativeToolTip": "src\\app\\Services\\reset-service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-25T11:19:30.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "sign-in.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Sign_In\\sign-in\\sign-in.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Sign_In\\sign-in\\sign-in.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Sign_In\\sign-in\\sign-in.ts",
+              "RelativeToolTip": "src\\app\\Components\\Sign_In\\sign-in\\sign-in.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-22T02:16:41.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "app.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\app.ts",
+              "RelativeDocumentMoniker": "src\\app\\app.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\app.ts",
+              "RelativeToolTip": "src\\app\\app.ts",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-25T11:12:18.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "orders.spec.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\orders\\orders.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\orders\\orders.spec.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\orders\\orders.spec.ts",
+              "RelativeToolTip": "src\\app\\Components\\orders\\orders.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-25T10:48:46.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "token-interceptors-interceptor.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Interceptors\\token-interceptors-interceptor.ts",
+              "RelativeDocumentMoniker": "src\\app\\Interceptors\\token-interceptors-interceptor.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Interceptors\\token-interceptors-interceptor.ts",
+              "RelativeToolTip": "src\\app\\Interceptors\\token-interceptors-interceptor.ts",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAFUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-24T09:39:03.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "main.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\main.ts",
+              "RelativeDocumentMoniker": "src\\main.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\main.ts",
+              "RelativeToolTip": "src\\main.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-24T09:49:06.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "product-service.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Services\\product-service.ts",
+              "RelativeDocumentMoniker": "src\\app\\Services\\product-service.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Services\\product-service.ts",
+              "RelativeToolTip": "src\\app\\Services\\product-service.ts",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-24T10:19:57.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "token-interceptors-interceptor.spec.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Interceptors\\token-interceptors-interceptor.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\Interceptors\\token-interceptors-interceptor.spec.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Interceptors\\token-interceptors-interceptor.spec.ts",
+              "RelativeToolTip": "src\\app\\Interceptors\\token-interceptors-interceptor.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-24T09:49:17.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "chunk-E2NZCY2V.js",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\dist\\craftyStudio\\browser\\chunk-E2NZCY2V.js",
+              "RelativeDocumentMoniker": "dist\\craftyStudio\\browser\\chunk-E2NZCY2V.js",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\dist\\craftyStudio\\browser\\chunk-E2NZCY2V.js",
+              "RelativeToolTip": "dist\\craftyStudio\\browser\\chunk-E2NZCY2V.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAqEAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-01-24T09:30:07.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "dashboard.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Dashboard\\dashboard\\dashboard.html",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Dashboard\\dashboard\\dashboard.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Dashboard\\dashboard\\dashboard.html",
+              "RelativeToolTip": "src\\app\\Components\\Dashboard\\dashboard\\dashboard.html",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAFMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-20T19:56:33.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "dashboard.css",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Dashboard\\dashboard\\dashboard.css",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Dashboard\\dashboard\\dashboard.css",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Dashboard\\dashboard\\dashboard.css",
+              "RelativeToolTip": "src\\app\\Components\\Dashboard\\dashboard\\dashboard.css",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-24T09:01:56.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "add-product.css",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddProduct\\add-product\\add-product.css",
+              "RelativeDocumentMoniker": "src\\app\\Components\\AddProduct\\add-product\\add-product.css",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddProduct\\add-product\\add-product.css",
+              "RelativeToolTip": "src\\app\\Components\\AddProduct\\add-product\\add-product.css",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-24T09:11:57.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "add-product.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddProduct\\add-product\\add-product.html",
+              "RelativeDocumentMoniker": "src\\app\\Components\\AddProduct\\add-product\\add-product.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddProduct\\add-product\\add-product.html",
+              "RelativeToolTip": "src\\app\\Components\\AddProduct\\add-product\\add-product.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-24T09:12:52.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "add-product.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddProduct\\add-product\\add-product.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\AddProduct\\add-product\\add-product.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddProduct\\add-product\\add-product.ts",
+              "RelativeToolTip": "src\\app\\Components\\AddProduct\\add-product\\add-product.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T19:36:40.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "add-category.css",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddCategory\\add-category\\add-category.css",
+              "RelativeDocumentMoniker": "src\\app\\Components\\AddCategory\\add-category\\add-category.css",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddCategory\\add-category\\add-category.css",
+              "RelativeToolTip": "src\\app\\Components\\AddCategory\\add-category\\add-category.css",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwFEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-24T09:11:42.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "admin-order-list.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-order-list\\admin-order-list.html",
+              "RelativeDocumentMoniker": "src\\app\\Components\\admin-order-list\\admin-order-list.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-order-list\\admin-order-list.html",
+              "RelativeToolTip": "src\\app\\Components\\admin-order-list\\admin-order-list.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-20T20:07:46.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "admin-users.css",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-users\\admin-users.css",
+              "RelativeDocumentMoniker": "src\\app\\Components\\admin-users\\admin-users.css",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-users\\admin-users.css",
+              "RelativeToolTip": "src\\app\\Components\\admin-users\\admin-users.css",
+              "ViewState": "AgIAALQAAAAAAAAAAAAAAN0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-20T21:06:29.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "add-category.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddCategory\\add-category\\add-category.html",
+              "RelativeDocumentMoniker": "src\\app\\Components\\AddCategory\\add-category\\add-category.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\AddCategory\\add-category\\add-category.html",
+              "RelativeToolTip": "src\\app\\Components\\AddCategory\\add-category\\add-category.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-24T09:13:08.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "admin-order-list.css",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-order-list\\admin-order-list.css",
+              "RelativeDocumentMoniker": "src\\app\\Components\\admin-order-list\\admin-order-list.css",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-order-list\\admin-order-list.css",
+              "RelativeToolTip": "src\\app\\Components\\admin-order-list\\admin-order-list.css",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAkwJAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-20T20:07:37.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\app.css",
+              "RelativeDocumentMoniker": "src\\app\\app.css",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\app.css",
+              "RelativeToolTip": "src\\app\\app.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-24T09:09:39.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "app.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\app.html",
+              "RelativeDocumentMoniker": "src\\app\\app.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\app.html",
+              "RelativeToolTip": "src\\app\\app.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-24T09:08:02.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "footer.css",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Footer\\footer\\footer.css",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Footer\\footer\\footer.css",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Footer\\footer\\footer.css",
+              "RelativeToolTip": "src\\app\\Components\\Footer\\footer\\footer.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-24T08:57:35.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "footer.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Footer\\footer\\footer.html",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Footer\\footer\\footer.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Footer\\footer\\footer.html",
+              "RelativeToolTip": "src\\app\\Components\\Footer\\footer\\footer.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-24T08:56:27.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "footer.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Footer\\footer\\footer.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Footer\\footer\\footer.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Footer\\footer\\footer.ts",
+              "RelativeToolTip": "src\\app\\Components\\Footer\\footer\\footer.ts",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-24T08:56:52.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "environment.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Environment\\environment.ts",
+              "RelativeDocumentMoniker": "src\\app\\Environment\\environment.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Environment\\environment.ts",
+              "RelativeToolTip": "src\\app\\Environment\\environment.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T19:50:29.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Cart.model.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Models\\Cart.model.ts",
+              "RelativeDocumentMoniker": "src\\app\\Models\\Cart.model.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Models\\Cart.model.ts",
+              "RelativeToolTip": "src\\app\\Models\\Cart.model.ts",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T18:26:31.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "admin-users.spec.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-users\\admin-users.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\admin-users\\admin-users.spec.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-users\\admin-users.spec.ts",
+              "RelativeToolTip": "src\\app\\Components\\admin-users\\admin-users.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T21:06:35.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "app.routes.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\app.routes.ts",
+              "RelativeDocumentMoniker": "src\\app\\app.routes.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\app.routes.ts",
+              "RelativeToolTip": "src\\app\\app.routes.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T19:54:22.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "home.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Home\\home\\home.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Home\\home\\home.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Home\\home\\home.ts",
+              "RelativeToolTip": "src\\app\\Components\\Home\\home\\home.ts",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwB8AAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T20:44:52.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "home.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Home\\home\\home.html",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Home\\home\\home.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Home\\home\\home.html",
+              "RelativeToolTip": "src\\app\\Components\\Home\\home\\home.html",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-20T20:44:53.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "home.css",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Home\\home\\home.css",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Home\\home\\home.css",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Home\\home\\home.css",
+              "RelativeToolTip": "src\\app\\Components\\Home\\home\\home.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-20T20:45:39.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "admin-order-list.spec.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-order-list\\admin-order-list.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\admin-order-list\\admin-order-list.spec.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\admin-order-list\\admin-order-list.spec.ts",
+              "RelativeToolTip": "src\\app\\Components\\admin-order-list\\admin-order-list.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T20:22:54.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "products.html",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Products\\products\\products.html",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Products\\products\\products.html",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Products\\products\\products.html",
+              "RelativeToolTip": "src\\app\\Components\\Products\\products\\products.html",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-01-20T20:00:46.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "sign-up.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Sign_Up\\sign-up\\sign-up.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\Sign_Up\\sign-up\\sign-up.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\Sign_Up\\sign-up\\sign-up.ts",
+              "RelativeToolTip": "src\\app\\Components\\Sign_Up\\sign-up\\sign-up.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T19:36:30.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "check-out.spec.ts",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\check-out\\check-out.spec.ts",
+              "RelativeDocumentMoniker": "src\\app\\Components\\check-out\\check-out.spec.ts",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\check-out\\check-out.spec.ts",
+              "RelativeToolTip": "src\\app\\Components\\check-out\\check-out.spec.ts",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-01-20T19:30:49.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "loader.css",
+              "DocumentMoniker": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\loader\\loader.css",
+              "RelativeDocumentMoniker": "src\\app\\Components\\loader\\loader.css",
+              "ToolTip": "C:\\CraftyStudio\\craftyStudio\\src\\app\\Components\\loader\\loader.css",
+              "RelativeToolTip": "src\\app\\Components\\loader\\loader.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-11T15:42:09.826Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

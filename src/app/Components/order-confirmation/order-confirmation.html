@@ -1,0 +1,62 @@
+<div class="order-confirmation-page">
+    <div class="confirmation-header">
+        <h1>Thank You for Your Order!</h1>
+        <p>Your order has been successfully placed.</p>
+    </div>
+
+    <div class="order-details">
+    <h2>Order Details</h2>
+    <div class="order-info">
+      <div class="info-row">
+        <span>Order Number:</span>
+        <span>#{{ orderDetails.id }}</span>
+      </div>
+      <div class="info-row">
+        <span>Date:</span>
+        <span>{{ orderDetails.orderedAt | date: 'longDate' }}</span>
+      </div>
+      <div class="info-row">
+        <span>Total:</span>
+        <span>Kshs.{{ orderDetails.totalAmount + 20 }}</span>
+      </div>
+      <div class="info-row">
+        <span>Payment Method:</span>
+        <span>{{ orderDetails.orderType }}</span>
+      </div>
+    </div>
+  </div>
+
+    <div class="shipping-details">
+        <h2>Shipping Address</h2>
+        <p>{{ orderDetails.address }}</p>
+    </div>
+  @if (!isLoading() && !error()) {
+    <div class="order-items">
+        <h2>Items Ordered</h2>
+         @if (orderDetails.items.length === 0){
+            <div>
+            No items to order.
+            </div>
+         }
+        @if (orderDetails.items.length > 0){
+            <div class="item-row">
+                <p>Product</p>
+                <p>Quantity</p>
+                <p>Price</p>
+            </div>
+            @for (item of orderDetails.items; track item.productId) {
+            <div class="item-row">
+               <p>{{ item.name }}</p>
+               <p>Quantity: {{ item.quantity }}</p>
+               <p>Price: Kshs.{{ item.priceAtPurchase }}</p>
+            </div>
+            }
+        }
+        <!-- Add more items as needed -->
+    </div>
+}
+
+    <div class="confirmation-footer">
+        <button routerLink="/" class="back-to-home">Back to Home</button>
+    </div>
+</div>

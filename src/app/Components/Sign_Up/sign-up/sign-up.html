@@ -1,0 +1,109 @@
+<app-loader [isLoading]="loading"></app-loader>
+<header class="header">
+  <div class="header-content">
+    <div class="logo">
+      <a href="#">
+        <img src="/Images/Crafty_Studio_log.png" alt="Logo">
+      </a>
+    </div>
+    <div class="header-text">Already have an account? <a routerLink="/signin">Sign In</a></div>
+  </div>
+</header>
+
+<main class="main-content">
+  <div class="cloud left-content">
+    <h1>Join Us Today</h1>
+    <p>Sign up to enjoy our services and be part of our community. It's quick and easy!</p>
+  </div>
+
+  <div class="sign-up-form">
+    <h2>Sign Up</h2>
+    <form [formGroup]="signUpForm" method="post">
+      <div class="form-group">
+        <label for="name">User name:</label>
+        <input class="input-field"
+               [class.error]="signUpForm.controls['username'].dirty && signUpForm.hasError('required', 'username')"
+               formControlName="username"
+               type="text"
+               id="username"
+               name="username"
+               required>
+        @if (signUpForm.controls['username'].dirty && signUpForm.hasError('required', 'username')) {
+          <small class="text-danger">*Username is required</small>
+        }
+      </div>
+
+      <div class="form-group">
+        <label for="name">Full name:</label>
+        <input class="input-field"
+               [class.error]="signUpForm.controls['fullname'].dirty && signUpForm.hasError('required', 'fullname')"
+               formControlName="fullname"
+               type="text"
+               id="firtsname"
+               name="firtsname"
+               required>
+        @if (signUpForm.controls['fullname'].dirty && signUpForm.hasError('required', 'fullname')) {
+          <small class="text-danger">*Full name is required</small>
+        }
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input class="input-field"
+               [class.error]="signUpForm.controls['email'].dirty && signUpForm.hasError('required', 'email')"
+               formControlName="email"
+               type="email"
+               id="email"
+               name="email"
+               required>
+        @if (signUpForm.controls['email'].dirty && signUpForm.hasError('required', 'email')) {
+          <small class="text-danger">*Email is required</small>
+        }
+        @if (signUpForm.controls['email'].dirty && signUpForm.hasError('email', 'email')) {
+          <small class="text-danger">*Email format is invalid</small>
+        }
+      </div>
+
+      <div class="form-group">
+        <label for="password" id="Password">Password:</label>
+        <input class="input-field"
+               [class.error]="signUpForm.controls['password'].dirty && signUpForm.hasError('required', 'password')"
+               formControlName="password"
+               [type]="type()" 
+               id="password"
+               name="password"
+               required>
+        <span (click)="hideShowPass()" class="fa {{ eyeIcon() }}"></span> <!-- 👈 signal binding -->
+        @if (signUpForm.controls['password'].dirty && signUpForm.hasError('required', 'password')) {
+          <small class="text-danger">*Password is required</small>
+        }
+      </div>
+
+      <button (click)="onSubmit()" type="submit">Sign Up</button>
+    </form>
+
+    <!-- <div class="social-login">
+      <p>Or sign up with:</p>
+      <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+    </div> -->
+  </div>
+</main>
+
+<!-- OTP Verification Modal -->
+<div class="modal fade" id="otpModal" tabindex="-1" aria-labelledby="otpModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <!-- Use the standalone OTP component here with email input binding -->
+      <app-otp-verification-modal [email]="registeredEmail"></app-otp-verification-modal>
+
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>&copy; All rights reserved.</p>
+</footer>

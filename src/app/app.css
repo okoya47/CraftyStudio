@@ -1,0 +1,22 @@
+/* styles.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* pushes footer down */
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}

@@ -1,0 +1,42 @@
+<app-loader [isLoading]="loading"></app-loader>
+<div class="action-buttons">
+  <button routerLink="/dashboard">Dashboard</button>
+</div>
+<form class="product-form" (ngSubmit)="saveProduct()">
+  <h5>{{formTitle}}</h5>
+  <label class="form-group">
+    Name:
+    <input [(ngModel)]="product.productName" name="productName" required />
+  </label>
+  <label class="form-group">
+    Price:
+    <input [(ngModel)]="product.price" name="price" type="number" required />
+  </label>
+
+  <label class="form-group">
+    Category:
+    <select id="CategoryId" [(ngModel)]="product.categoryId" name="categoryId">
+      <option value="" disabled>Select a category</option>
+      <option *ngFor="let cat of category" [value]=cat.categoryId>{{cat.name}}</option>
+    </select>
+  </label>
+
+  <label class="form-group">
+    Description:
+    <textarea type="text" name="description" [(ngModel)]="product.description" name="description"></textarea>
+  </label>
+  <!-- <label class="form-group">
+    Category ID:
+    <input [(ngModel)]="product.categoryId" name="categoryId" required />
+  </label> -->
+  <label class="form-group">
+    Images:
+    <input type="file" (change)="onFileChange($event)" />
+    <input type="file" (change)="onFileChange1($event)" />
+    <input type="file" (change)="onFileChange2($event)" />
+  </label>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+

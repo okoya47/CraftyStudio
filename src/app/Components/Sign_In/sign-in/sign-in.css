@@ -1,0 +1,296 @@
+.main-content {
+    background-image: url('/Images/Home/woodwork.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: #f7ecd6a8; /* Translucent background */
+    color: #362214;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px); /* Optional: adds blur effect */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-text a {
+    color: #362214;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh); /* Adjust based on header and footer height */
+    padding: 20px;
+}
+
+.left-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.left-content p {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* Hide left content on mobile */
+@media (max-width: 768px) {
+    .left-content {
+        display: none;
+    }
+}
+
+.sign-up-form {
+    flex: 1;
+    max-width: 400px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f7ecd6a8; /* Translucent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sign-up-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #a79f8f;
+    color: #362214;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.social-login {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-login p {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Change to desired hover color */
+}
+
+.footer {
+    background-color: #f7ecd6a8; /* Translucent background */
+    color: #362214;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(10px); /* Optional: adds blur effect */
+    z-index: 1000;
+}
+
+.cloud {
+    position: relative;
+    background:  rgba(194, 175, 175, 0.7); /* Translucent background */
+    border-radius: 20%;
+    box-shadow: 6 34px 23px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    height: 151px;
+    margin: 50px auto;
+}
+.logo img{
+    height: 96px;
+}
+#password{
+    width: 90%;
+}
+.fa-eye-slash, .fa-eye{
+    padding-left: 5px;
+}
+.input-field.error{
+    border: 1px solid red !important;
+}
+
+
+#forgetPassword .modal-content {
+    background-color: rgba(255, 255, 255, 0.9); /* Translucent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#forgetPassword .modal-header {
+    background-color: rgba(51, 51, 51, 0.8); /* Translucent header background */
+    color: #fff;
+    border-bottom: none;
+    padding: 15px 20px;
+}
+
+#forgetPassword .modal-title {
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+#forgetPassword .modal-body {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#forgetPassword .modal-footer {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-top: none;
+    padding: 10px 20px;
+}
+
+#forgetPassword .form-group {
+    margin-bottom: 15px;
+}
+
+#forgetPassword .input-field {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+}
+
+#forgetPassword .input-field input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+#forgetPassword .input-field .fa-user {
+    color: #333;
+}
+
+#forgetPassword button.btn-primary {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#forgetPassword button.btn-primary:hover {
+    background-color: #555;
+}
+
+#forgetPassword button.btn-secondary {
+    background-color: #555;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#forgetPassword button.btn-secondary:hover {
+    background-color: #777;
+}
+
+#forgetPassword .small.text-danger {
+    color: red;
+}
+
+/* Adjust modal responsiveness */
+@media (max-width: 768px) {
+    #forgetPassword .modal-content {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #forgetPassword .modal-header, 
+    #forgetPassword .modal-footer {
+        padding: 10px;
+    }
+
+    #forgetPassword .input-field input {
+        font-size: 14px;
+    }
+
+    #forgetPassword button {
+        font-size: 14px;
+    }
+}
+
+
+.forgot-password-container {
+    text-align: left;
+    margin-top: 10px; /* Optional: Add margin to separate from other elements */
+}
+
+#forgot {
+    font-weight: bold;
+    color: #fff; /* White text to match the theme */
+    text-decoration: none;
+    background-color: rgba(51, 51, 51, 0.8); /* Translucent background */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+#forgot:hover {
+    background-color: rgba(255, 255, 255, 0.9); /* Light background on hover */
+    color: #333; /* Dark text on hover */
+    text-decoration: none;
+}
+

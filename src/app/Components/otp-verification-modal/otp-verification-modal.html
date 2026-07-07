@@ -1,0 +1,40 @@
+<div class="modal-header bg-dark text-white">
+  <h5 class="modal-title">Verify Your Email</h5>
+  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+</div>
+<div class="modal-body text-center p-4">
+  <p>We've sent a 6-digit code to</p>
+  <h6 class="mb-4">{{ email }}</h6>
+
+  <form [formGroup]="otpForm" (ngSubmit)="verify()">
+    <div class="d-flex justify-content-center gap-3 mb-4">
+      <input type="text" maxlength="1" class="form-control otp-input" formControlName="d1"
+             (input)="onInput($event, 0)" (keydown)="onKeydown($event, 0)" (paste)="onPaste($event)">
+      <input type="text" maxlength="1" class="form-control otp-input" formControlName="d2"
+             (input)="onInput($event, 1)" (keydown)="onKeydown($event, 1)">
+      <input type="text" maxlength="1" class="form-control otp-input" formControlName="d3"
+             (input)="onInput($event, 2)" (keydown)="onKeydown($event, 2)">
+      <input type="text" maxlength="1" class="form-control otp-input" formControlName="d4"
+             (input)="onInput($event, 3)" (keydown)="onKeydown($event, 3)">
+      <input type="text" maxlength="1" class="form-control otp-input" formControlName="d5"
+             (input)="onInput($event, 4)" (keydown)="onKeydown($event, 4)">
+      <input type="text" maxlength="1" class="form-control otp-input" formControlName="d6"
+             (input)="onInput($event, 5)" (keydown)="onKeydown($event, 5)">
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100" [disabled]="isLoading()">
+      {{ isLoading() ? 'Verifying...' : 'Verify Account' }}
+    </button>
+  </form>
+
+  <div class="mt-3 text-danger" *ngIf="errorMsg()">{{ errorMsg() }}</div>
+
+  <div class="mt-4">
+    <p class="text-muted">
+      Didn't receive code?
+      <a href="javascript:void(0)" (click)="resend()" [class.disabled]="countdown() > 0">
+        Resend {{ countdown() > 0 ? '(' + countdown() + 's)' : '' }}
+      </a>
+    </p>
+  </div>
+</div>

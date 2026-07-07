@@ -1,0 +1,132 @@
+<app-loader [isLoading]="loading"></app-loader>
+<header class="header">
+  <div class="header-content">
+    <div class="logo">
+      <a href="#">
+        <img src="/Images/Crafty_Studio_log.png" alt="Logo">
+      </a>
+    </div>
+    <div class="header-text">
+      Don't have an account? <a routerLink="/signup">Sign Up</a>
+    </div>
+  </div>
+</header>
+
+<main class="main-content">
+  <div class="cloud left-content">
+    <h1>Welcome to Crafty Studio</h1>
+    <p>Discover the benefits of joining our community. Enjoy exclusive features, updates, and more.</p>
+  </div>
+
+  <div class="sign-up-form">
+    <h2>Sign In</h2>
+    <form [formGroup]="signInForm" method="post">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input
+          class="input-field"
+          [class.error]="signInForm.controls['email'].dirty && signInForm.hasError('required', 'email')"
+          formControlName="email"
+          type="email"
+          id="email"
+          name="email"
+          required
+        />
+        @if (signInForm.controls['email'].dirty && signInForm.hasError('required', 'email')) {
+          <small class="text-danger">*Email is required</small>
+        }
+        @if (signInForm.controls['email'].dirty && signInForm.hasError('email', 'email')) {
+          <small class="text-danger">*Email format is invalid</small>
+        }
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input
+          [class.error]="signInForm.controls['password'].dirty && signInForm.hasError('required', 'password')"
+          class="input-field"
+          formControlName="password"
+          [type]="type()"
+          id="password"
+          name="password"
+          required
+        />
+        <span (click)="hideShowPass()" class="fa {{eyeIcon()}}"></span>
+        @if (signInForm.controls['password'].dirty && signInForm.hasError('required', 'password')) {
+          <small class="text-danger">*Password is required</small>
+        }
+      </div>
+
+      <div class="forgot-password-container">
+        <a id="forgot" data-bs-toggle="modal" data-bs-target="#forgetPassword" class="font-weight-bold">Forgot password?</a>
+      </div>
+
+      <button (click)="onSubmit()" type="submit">Sign In</button>
+    </form>
+
+    <!-- <div class="social-login">
+      <p>Or sign up with:</p>
+      <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+    </div> -->
+  </div>
+</main>
+
+<!-- OTP Verification Modal (Same as SignUp) -->
+<div class="modal fade" id="otpModal" tabindex="-1" aria-labelledby="otpModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <!-- Reusing the same standalone OTP component -->
+      <app-otp-verification-modal [email]="registeredEmail"></app-otp-verification-modal>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="forgetPassword" tabindex="-1" aria-labelledby="forgetPasswordLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title" id="forgetPasswordLabel">
+          <span style="font-size: 25px; font-weight: 700;">
+            Forget your password!
+            <small>Please provide your E-mail we will send the reset link.</small>
+          </span>
+        </p>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="model-body">
+        <div class="form-group pt-3">
+          <div class="input-field">
+            <span class="fa fa-user p-2"></span>
+            <input
+              [(ngModel)]="resetPasswordEmail"
+              (ngModelChange)="checkEmailIsValid($event)"
+              type="text"
+              placeholder="Email"
+            />
+          </div>
+
+          @if (!resetPasswordEmail) {
+            <small class="text-danger">*Email is required</small>
+          }
+
+          @if (resetPasswordEmail && !isValidEmail) {
+            <small class="text-danger">*Email is invalid</small>
+          }
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button id="closebtn" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" (click)="confirmSend()" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>&copy; All rights reserved.</p>
+</footer>

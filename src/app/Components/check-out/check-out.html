@@ -1,0 +1,145 @@
+<app-loader [isLoading]="loading"></app-loader>
+<div class="checkout-page">
+  <h1>Checkout</h1>
+
+  <!-- Loading and Error States -->
+  @if (isLoading()) {
+    <div><p>Loading cart...</p></div>
+  }
+
+  @if (error()) {
+    <div><p class="error">{{ error() }}</p></div>
+  }
+
+  <!-- Order Summary -->
+  @if (!isLoading() && !error()) {
+    <div class="order-summary">
+      <h2>Order Summary</h2>
+
+      @if (buyNowItem()) {
+        <div class="buy-now-banner">
+          <p><strong>Buy Now:</strong> You're purchasing this item directly.</p>
+        </div>
+      }
+
+      @if (cartItems().length === 0) {
+        <div>No items added in the cart.</div>
+      }
+
+      @if (cartItems().length > 0) {
+        <div class="summary-items">
+          @for (item of cartItems(); track item.productId) {
+          <div class="summary-item">
+            <img [src]="item.imageUrl" alt="Product Image" />
+            <p>{{ item.productName }}</p>
+            <p>Quantity: {{ item.quantity }}</p>
+            <p>Price: Kshs.{{ item.price }}</p>
+          </div>
+          }
+        </div>
+        <div class="summary-total">
+          <p>Shipping: Kshs.20.00</p>
+          <p><strong>Total: Kshs.{{ totalAmount() + 20 }}</strong></p>
+        </div>
+      }
+    </div>
+  }
+
+  @if (cartItems().length !== 0) {
+    <!-- Fulfillment Method -->
+    <div class="payment-methods">
+      <h2>Fulfillment Method</h2>
+      <div class="payment-option">
+        <input
+          type="radio"
+          id="delivery"
+          name="fulfillment-method"
+          [checked]="fulfillmentMethod() === 'delivery'"
+          (change)="onFulfillmentSelect('delivery')"
+        />
+        <label for="delivery">Delivery</label>
+      </div>
+      <div class="payment-option">
+        <input
+          type="radio"
+          id="pickup"
+          name="fulfillment-method"
+          [checked]="fulfillmentMethod() === 'pickup'"
+          (change)="onFulfillmentSelect('pickup')"
+        />
+        <label for="pickup">Pickup from Shop</label>
+      </div>
+    </div>
+
+    <!-- Address Input -->
+    @if (fulfillmentMethod() === 'delivery') {
+      <div class="address-section">
+        <label for="address">Delivery Address:</label>
+        <input
+          type="text"
+          id="address"
+          placeholder="Enter your address"
+          [value]="address()"
+          (input)="onAddressChange($event)"
+        />
+      </div>
+    }
+
+    <!-- Payment Methods -->
+    <div class="payment-methods">
+      <h2>Payment Method</h2>
+      <div class="payment-option">
+        <input
+          type="radio"
+          id="mpesa"
+          name="payment-method"
+          [checked]="selectedPaymentMethod() === 'mpesa'"
+          (change)="onPaymentSelect('mpesa')"
+        />
+        <label for="mpesa">Mpesa</label>
+      </div>
+      <div class="payment-option">
+        <input
+          type="radio"
+          id="acquire"
+          name="payment-method"
+          [checked]="selectedPaymentMethod() === 'acquire'"
+          (change)="onPaymentSelect('acquire')"
+        />
+        <label for="acquire">Pay on Acquisition</label>
+      </div>
+    </div>
+
+    <!-- Place Order Button -->
+    <div class="place-order">
+      <button
+        [disabled]="isSubmitting"
+        class="place-order-button"
+        (click)="placeOrder()"
+      >
+        Place Order
+      </button>
+    </div>
+  }
+
+  <!-- Mpesa Modal -->
+  @if (showMpesaPopup()) {
+    <div class="modal-overlay">
+      <div class="modal-content">
+        <h3>Mpesa Payment</h3>
+        <div class="mpesa-details">
+          <label for="phone-number">Phone Number:</label>
+          <input
+            type="tel"
+            id="phone-number"
+            placeholder="0712 345 678"
+            [value]="phoneNumber()"
+            (input)="onPhoneChange($event)"
+          />
+          <button class="mpesa-button" (click)="confirmMpesa()">Confirm Payment</button>
+          <button class="cancel-button" (click)="cancelMpesa()">Cancel</button>
+        </div>
+      </div>
+    </div>
+  }
+</div>

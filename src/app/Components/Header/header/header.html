@@ -1,0 +1,106 @@
+<nav class="navbar">
+    <div class="desktop-navbar-icons">
+      <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a> 
+      <a routerLink="/cart" class="cart-icon" aria-label="Cart">
+        <mat-icon>shopping_cart</mat-icon>
+
+        @if (cartItemCount() > 0) {
+          <span class="cart-badge">{{ cartItemCount() }}</span>
+        }
+        </a>      
+      <!-- <a routerLink="/cart" class="cart-icon" aria-label="Cart">
+        <mat-icon>shopping_cart</mat-icon>
+        <span class="cart-badge" *ngIf="count > 0">{{ count }}</span>
+        </a> -->
+    </div>
+  
+    <!-- Desktop Menu -->
+    <div class="desktop-navbar-links">
+    <div class="navbar-logo">
+      <a href="#">
+        <img src="/Images/Crafty_Studio_log.png" alt="Crafty Studio Logo">
+      </a>
+      <h2>CRAFTY STUDIOS</h2>
+    </div>
+      <div class="header-links">
+      <a href="/">Home</a>
+      <a routerLink="/products">Products</a>
+      <a routerLink="/about-us">About</a>
+      <a routerLink="/contact-us">Contact</a>
+      <a routerLink="/my-orders">Orders</a>
+      </div>
+    </div>
+  
+    <div class="desktop-navbar-auth">
+      @if (auth.isLoggedInSignal() && auth.decodedToken() != null) {
+      <app-user-badge></app-user-badge>
+      <button routerLink="/" (click)="signOut()" mat-button>Sign Out</button>
+      }@else{
+
+      <button routerLink="/signin" mat-button>Sign In</button>
+      <button routerLink="/signup" mat-raised-button color="primary">Sign Up</button>
+      }
+    </div>
+  
+    <!-- Mobile Toggle Button -->
+    <button class="navbar-toggle" (click)="toggleMenu()">
+      <mat-icon>menu</mat-icon>
+    </button> 
+  
+    <!-- Mobile Menu -->
+    <div class="mobile-navbar-collapse" [ngClass]="{'open': isMenuOpen}">
+      <div class="mobile-navbar-links">
+        <a href="/">Home</a>
+        <a (click)="toggleMenu()" routerLink="/products">Products</a>
+        <a (click)="toggleMenu()" routerLink="/about-us">About</a>
+        <a (click)="toggleMenu()" routerLink="/contact-us">Contact</a>
+         <a (click)="toggleMenu()"  routerLink="/my-orders">Orders</a>
+      </div>
+  
+      <div class="mobile-navbar-icons">
+        <a (click)="toggleMenu()" href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a (click)="toggleMenu()" href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a (click)="toggleMenu()" href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a (click)="toggleMenu()" routerLink="/cart" class="cart-icon" aria-label="Cart">
+          <mat-icon>shopping_cart</mat-icon>
+
+          @if (cartItemCount() > 0) {
+            <span class="cart-badge">{{ cartItemCount() }}</span>
+          }
+        </a>
+      </div> 
+      
+      <div class="mobile-navbar-auth">
+
+        @if (auth.isLoggedInSignal() && auth.decodedToken() != null) {
+        <app-user-badge></app-user-badge>
+        <button (click)="toggleMenu()" class="signout" routerLink="/" (click)="signOut()" mat-button>Sign Out</button>
+        }@else{
+        <button class="login" routerLink="/signin" mat-button>Login</button>
+        <button class="signup" routerLink="/signup" mat-raised-button color="primary">Sign Up</button>
+        }
+      </div>
+    
+    </div>
+    <div class="navbar-logo-mobi">
+      <div>
+      <a href="#">
+        <img src="/Images/Crafty_Studio_log.png" alt="Crafty Studio Logo">
+      </a>
+      </div>
+      <div>
+      <h2>CRAFTY STUDIOS</h2>
+      </div>
+    </div>
+    <div class="mobi-cart">
+      <a routerLink="/cart" class="cart-icon" aria-label="Cart">
+          <mat-icon>shopping_cart</mat-icon>
+
+          @if (cartItemCount() > 0) {
+            <span class="cart-badge">{{ cartItemCount() }}</span>
+          }
+      </a>
+    </div>
+  </nav>

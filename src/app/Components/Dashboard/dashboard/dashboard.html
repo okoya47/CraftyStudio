@@ -1,0 +1,122 @@
+<div class="admin-dashboard">
+  <header class="dashboard-header">
+    <h1>Admin Dashboard</h1>
+    <p>Manage Products, Categories, and Users</p>
+  </header>
+ <div class="action-buttons">
+    <button routerLink="/AddProduct">Add Products</button>
+    <button routerLink="/AddCategory">Add Categories</button>
+    <button routerLink="/users">Users</button>
+    <button routerLink="/orders">Orders</button>
+  </div>
+  <!-- Products Section -->
+  <section class="admin-section">
+    <h2>Products</h2>
+    <table class="admin-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Stock</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="products-body">
+  @for (product of paginatedProducts; track product.productId) {
+    <tr>
+      <td>{{ product.productName }}</td>
+      <td>{{ product.price | currency:'KES':'symbol':'1.0-0' }}</td>
+      <td></td>
+      <td>
+        <button class="action-button edit" routerLink="/AddProduct/{{product.productId}}">Edit</button>
+        <button (click)="storeProDeleteID(product.productId, product.productName)" class="action-button delete" data-bs-toggle="modal" data-bs-target="#deleteProduct">Delete</button>
+      </td>
+    </tr>
+  }
+  @empty {
+    <tr><td colspan="4">No products available</td></tr>
+  }
+</tbody>
+</table>
+   <div class="pagination">
+  <button (click)="changeProductPage(productPage - 1)" [class.disabled]="productPage === 1">Prev</button>
+  <span>Page {{ productPage }} of {{ totalProductPages }}</span>
+  <button (click)="changeProductPage(productPage + 1)" [class.disabled]="productPage === totalProductPages">Next</button>
+</div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="admin-section">
+    <h2>Categories</h2>
+    <table class="admin-table">
+      <thead>
+        <tr>
+          <td>Image</td>
+          <th>Name</th>
+          <th>Count</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="categories-body">
+       
+         @for (cat of paginatedCategory; track cat.id){
+      <tr>
+        <td><img [src]="cat.imagePath" alt="{{cat.name}}"> </td>
+        <td>{{cat.name}}</td>
+        <td>{{cat.count}}</td>
+        <td id="action-btn">
+          <button class="action-button edit" routerLink="/AddCategory/{{cat.categoryId}}">Edit</button>
+          <button class="action-button delete" (click)="storeDeleteID(cat.categoryId, cat.name)" data-bs-toggle="modal" data-bs-target="#deleteCategory">Delete</button>
+        </td> 
+        </tr>
+      }
+      @empty {
+      <tr><td colspan="3">No categories available</td></tr>
+    }
+      
+      </tbody>
+    </table>
+    <div class="pagination">
+  <button (click)="changePage(currentPage - 1)" [class.disabled]="currentPage === 1">Prev</button>
+  <span id="categories-page">Page {{ currentPage }} of {{ totalPages }}</span>
+  <button (click)="changePage(currentPage + 1)" [class.disabled]="currentPage === totalPages">Next</button>
+</div>
+  </section>
+
+<!-- Delete modal remains the same as your original code -->
+
+  <div class="modal fade" id="deleteProduct" tabindex="-1" aria-labelledby="deleteProductLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+             <p class="modal-title" id="deleteProductLabel"><span style="font-size: 25px; font-weight: 700;">Delete!<br>
+              <small>Are sure you want delete the {{deleteProName}}?</small>
+             </span></p>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-footer">
+            <button id="closebtn" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            <button (click)="DeleteProduct()" id="delete" type="button" class="btn btn-danger" data-bs-dismiss="modal">Delete</button>
+          </div>
+  
+        </div>
+    </div>
+  </div>
+
+   <div class="modal fade" id="deleteCategory" tabindex="-1" aria-labelledby="deleteProductLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+             <p class="modal-title" id="deleteProductLabel"><span style="font-size: 25px; font-weight: 700;">Delete!<br>
+              <small>Are sure you want delete the {{deleteCategryName}}?</small>
+             </span></p>
+             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-footer">
+            <button id="closebtn" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            <button (click)="DeleteCategory()" id="delete" type="button" class="btn btn-danger" data-bs-dismiss="modal">Delete</button>
+          </div>
+  
+        </div>
+    </div>
+  </div>

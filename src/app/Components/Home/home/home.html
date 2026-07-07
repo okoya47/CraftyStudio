@@ -1,0 +1,100 @@
+ 
+<!-- Banner section -->
+  <div class="container">
+    <div class="content">
+        <h1>Exquisitely Handcrafted Wooden Creations</h1>
+        <p>Discover the charm and elegance of our exquisitely handcrafted wooden creations. Each piece is a testament to fine craftsmanship, blending timeless beauty with superior quality. </p>
+    </div>
+    <div class="video-icon">
+        <i class="fas fa-play play-button" (click)="openPopup()"></i>
+    </div>
+</div>
+
+<div class="video-popup" [ngClass]="{'active': showPopup}"> 
+    <span class="close-popup" (click)="closePopup()">&times;</span>
+   @if (showPopup) {
+        <iframe [src]="videoUrl" allowfullscreen style="border: none;"></iframe>
+    }
+</div>
+
+<!-- Category section -->
+
+<div class="categories-section">
+  <h2>Categories</h2>
+  <p>Check out our latest updates</p>
+  <div class="categories-container">
+    @for (cat of categories; track cat.id){
+      <div class="category-content">
+          <div class="category-text">
+              <div class="number">{{cat.count}}</div>
+              <div class="label">{{cat.name}}</div>
+          </div>  
+          <img [src]="cat.imagePath" alt="Image 1"> 
+      </div>
+    }
+    @empty {
+      <div>No categories available</div>
+    }
+  </div>
+</div>
+
+<!-- Featured products -->
+<div class="featured-section">
+  <h2>Featured Products</h2>
+  <p>Check out our latest products</p>
+    <div class="scroll-wrapper">
+        @for (prod of products; track prod.productId){
+        <div class="card card3">
+            <div class="image-container">
+                 <img [src]="prod.imagePath" alt="{{prod.productName}}"> 
+                <div class="overlay">
+                    <button routerLink="/product-details/{{prod.productId}}" class="read-more">Read More</button>
+                </div>
+            </div>
+            <div class="card-content">
+                <h2>{{prod.productName}}</h2>
+                <p class="price">Kshs.{{prod.price}}</p>
+            </div>
+        </div>
+    } @empty {
+      <div>No products available</div>
+    }
+        
+    </div>
+</div>
+
+<!-- Create Account section -->
+
+<section class="account-section">
+  <div class="image-container">
+      <img src="/Images/Home/woodCreate.jpg" alt="Image Description">
+  </div>
+  <div class="content-container">
+      <h5>Quality Craftsmanship</h5>
+      <h2>Stay Ahead with My Latest Finishes and Premium Materials</h2>
+      <p>Create an account to be the first to discover our latest premium materials and finishes, crafted to elevate your space with unmatched quality and style.</p>
+      <button routerLink="/signup" class="action-button">Create Account</button>
+  </div>
+</section>
+
+<!-- Card Section -->
+
+<div class="card-info image-container">
+  <div class="image-card">
+      <img src="/Images/Home/fast-delivery.webp" alt="Image 1">
+      <h2>Fast Delivery</h2>
+      <p>At Craftistic, we understand the importance of both speed and reliability. That’s why we ensure fast delivery of all our products without compromising on quality. 1</p>
+  </div>
+  <div class="image-card">
+      <img src="/Images/Home/high-quality.webp" alt="Image 2">
+      <h2>High Quality</h2>
+      <p>Each piece of furniture and woodcraft is meticulously crafted to meet the highest standards, ensuring durability and aesthetic excellence. </p>
+  </div>
+  <div class="image-card">
+      <img src="/Images/Home/best-warranty.webp" alt="Image 3">
+      <h2>Best Warranty</h2>
+      <p>Each piece of furniture and woodcraft is meticulously crafted to meet the highest standards, ensuring durability and aesthetic excellence. </p>
+  </div>
+</div>
+
+ 

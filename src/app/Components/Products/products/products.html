@@ -1,0 +1,66 @@
+<!-- Products Section -->
+<div class="products-section">
+  <h2>Our Products</h2>
+  <p>Check out our latest products</p>
+  
+  <!-- Top Pagination -->
+  <div class="pagination">
+    <p>Showing {{ paginatedProducts.length }} results</p>
+    <div class="pagination-controls">
+      <a (click)="changePage(currentPage - 1)" class="page-link" [class.disabled]="currentPage === 1">Prev</a>
+      <a *ngFor="let page of [].constructor(totalPages); let i = index" 
+         (click)="changePage(i + 1)" class="page-link"
+         [class.active]="currentPage === i + 1">{{ i + 1 }}</a>
+      <a (click)="changePage(currentPage + 1)" class="page-link" [class.disabled]="currentPage === totalPages">Next</a>
+    </div>
+  </div>
+  
+  <!-- Filter Options -->
+  <div class="filter-options">
+    <select id="sort-options" (change)="onSortChange($event)">
+      <option value="default">Default Sorting</option>
+      <option value="low-to-high">Price: Low to High</option>
+      <option value="high-to-low">Price: High to Low</option>
+    </select>
+  </div>
+  
+  <!-- Product Cards -->
+  <div class="scroll-wrapper">
+    <div *ngIf="paginatedProducts.length === 0">
+      No products available.
+    </div>
+    
+    <!-- Product Cards -->
+    <div *ngFor="let product of paginatedProducts">
+      <div class="card">
+        <div class="image-container">
+          <img [src]="product.imagePath" alt="{{ product.productName }}" class="product-image" />
+          <div class="overlay">
+            <button routerLink="/product-details/{{product.productId}}" class="read-more">Read More</button> 
+          </div>
+        </div>
+        <div class="card-content">
+          <h2>{{ product.productName }}</h2>
+          <p>Kshs.{{ product.price }}</p>
+           <div class="optionBtn">
+            <button *ngIf="role == 'admin'" (click)="storeDeleteID(product.productId, product.productName)" id="del" data-bs-toggle="modal" data-bs-target="#deleteProduct" class="font-weight-bold">Delete</button>
+            <!-- <button (click)="clickProductAdd(product)" class="font-weight-bold" id="addCart">Add Cart</button> -->
+              <button class="font-weight-bold" id="addCart" (click)="addToCart(product.productId, product.productName, product.price, product.imagePath)">Add Cart</button>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Pagination (same as top) -->
+  <div class="pagination">
+    <p>Showing {{ paginatedProducts.length }} results</p>
+    <div class="pagination-controls">
+      <a  (click)="changePage(currentPage - 1)" class="page-link" [class.disabled]="currentPage === 1">Prev</a>
+      <a  *ngFor="let page of [].constructor(totalPages); let i = index" 
+         (click)="changePage(i + 1)" class="page-link"
+         [class.active]="currentPage === i + 1">{{ i + 1 }}</a>
+      <a  (click)="changePage(currentPage + 1)" class="page-link" [class.disabled]="currentPage === totalPages">Next</a>
+    </div>
+  </div>
+</div>

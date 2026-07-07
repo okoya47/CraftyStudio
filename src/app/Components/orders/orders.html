@@ -1,0 +1,77 @@
+<div class="order-history-page">
+  <h1>My Orders</h1>
+
+  @if (isLoading()) {
+    <div>Loading orders...</div>
+  }
+
+  @if (error()) {
+    <div>Failed to load orders.</div>
+  }
+
+  @for (order of visibleOrders(); track order.id) {
+    <div class="order-card">
+      <div class="order-header">
+        <span>Order No: {{ order.id }}</span>
+        <span>{{ order.orderedAt | date: 'short' }}</span>
+      </div>
+
+      <div class="order-items">
+        @for (item of order.items; track $index) {
+        <div class="item-row">
+          <img [src]="item.imageUrl" alt="{{ item.name }}" />
+          <div class="item-info">
+            <p>{{ item.name }}</p>
+            <p>KSh {{ item.priceAtPurchase }}</p>
+          </div>
+        </div>
+        }
+      </div>
+
+      <div class="order-footer">
+        <span>Status: {{ order.status }}</span>
+
+        @if (order.canDelete) {
+          <span class="count-down">Delete available for: {{ getTimeLeft(order.orderedAt ?? '') }}</span>
+        } @else {
+          <span class="expired-msg">Delete period expired</span>
+        }
+
+        @if (order.status === 'Pendings') {
+          <button (click)="cancelOrder(order.id)">Cancel</button>
+        }
+
+        <button 
+          [disabled]="!order.canDelete" 
+          (click)="openDeleteModal(order.id)">
+          Delete
+        </button>
+      </div>
+    </div>
+  } @empty {
+    <div>No orders found.</div>
+  }
+
+  @if (visibleOrders().length < totalOrdersCount()) {
+    <div class="show-more">
+      <button (click)="showMore()">Show more</button>
+    </div>
+  }
+
+  @if (showScrollTop()) {
+    <button class="scroll-top-btn" (click)="scrollToTop()">↑</button>
+  }
+</div>
+
+@if (showModal()) {
+  <div id="delete-modal-backdrop" class="delete-modal-backdrop">
+    <div id="delete-modal" class="delete-modal">
+      <h2>Confirm Deletion</h2>
+      <p>Are you sure you want to delete this order? This action cannot be undone.</p>
+      <div class="delete-modal-actions">
+        <button class="cancel" (click)="closeModal()">Cancel</button>
+        <button class="danger" (click)="confirmDelete()">Delete</button>
+      </div>
+    </div>
+  </div>
+}
